@@ -1,8 +1,8 @@
 # Flight Search MCP Server
-[![smithery badge](https://smithery.ai/badge/@alan5543/flight-scraper)](https://smithery.ai/server/@alan5543/flight-scraper)
+[![smithery badge](https://smithery.ai/badge/@alan5543/flight-search-mcp)](https://smithery.ai/server/@alan5543/flight-search-mcp)
 
 ## Introduction
-The Flight Search MCP Server enables Large Language Models (LLMs) to retrieve detailed flight information from Kayak without requiring an API key. Using web scraping, it collects comprehensive data on flights, including prices, schedules, airlines, baggage allowances, and more. This server integrates seamlessly with MCP-compatible clients (e.g., Claude Desktop) to enhance flight search and analysis capabilities.
+The Flight Search MCP Server enables Large Language Models (LLMs) to retrieve detailed flight search and information without requiring an API key. Using web scraping, it collects comprehensive data on flights, including prices, schedules, airlines, baggage allowances, and more. This server integrates seamlessly with MCP-compatible clients (e.g., Claude Desktop) to enhance flight search and analysis capabilities.
 
 ## Tools
 The server provides one tool for scraping flight data, detailed below with its function name, parameters, and return value for clarity:
@@ -69,9 +69,9 @@ To set up the Flight Scraper MCP Server locally:
    Replace `YOUR_CLONED_FOLDER` with the path to the cloned repository.
 
 ## Remote MCP Server Configuration
-The Flight Scraper MCP Server is hosted remotely at [https://smithery.ai/server/@alan5543/flight-scraper](https://smithery.ai/server/@alan5543/flight-scraper). To use it:
+The Flight Scraper MCP Server is hosted remotely at [https://smithery.ai/server/@alan5543/flight-search-mcp](https://smithery.ai/server/@alan5543/flight-search-mcp). To use it:
 1. Visit [https://smithery.ai](https://smithery.ai) and sign in or create an account.
-2. Go to the server page: [https://smithery.ai/server/@alan5543/flight-scraper](https://smithery.ai/server/@alan5543/flight-scraper).
+2. Go to the server page: [https://smithery.ai/server/@alan5543/flight-search-mcp](https://smithery.ai/server/@alan5543/flight-search-mcp).
 3. Click "Add to Client" or follow Smithery.ai's integration instructions.
 4. Update your MCP client (e.g., Claude Desktop) to use the remote server URL. Check your client's documentation for details on configuring remote MCP servers.
 5. Test the connection to confirm the server is accessible and working.
