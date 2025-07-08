@@ -5,6 +5,8 @@ from enumType import SortBy, Rating, HotelClass, PropertyType, Amenity
 import os
 from dotenv import load_dotenv
 import logging
+import datetime
+import re
 
 # Set up logging
 logger = logging.getLogger(__name__)
