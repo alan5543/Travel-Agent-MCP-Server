@@ -36,8 +36,8 @@ async def search_hotels(
     gl: str = "us",
     hl: str = "en",
     sort_by: Optional[str] = None,
-    min_price: Optional[float] = None,
-    max_price: Optional[float] = None,
+    min_price: Optional[int] = None,
+    max_price: Optional[int] = None,
     property_types: Optional[List[str]] = None,
     amenities: Optional[List[str]] = None,
     rating: Optional[str] = None,
@@ -69,8 +69,8 @@ async def search_hotels(
         gl (str, optional): Country code for localization (e.g., "us", "uk"). Defaults to "us".
         hl (str, optional): Language code for results (e.g., "en", "fr"). Defaults to "en".
         sort_by (str, optional): Sorting option for results. Options: "LOWEST_PRICE", "HIGHEST_RATING", "MOST_REVIEWED".
-        min_price (float, optional): Minimum price per night.
-        max_price (float, optional): Maximum price per night.
+        min_price (int, optional): Minimum price per night.
+        max_price (int, optional): Maximum price per night.
         property_types (List[str], optional): Types of properties to filter. Options: "BEACH_HOTELS", "BOUTIQUE_HOTELS",
             "HOSTELS", "INNS", "MOTELS", "RESORTS", "SPA_HOTELS", "BED_AND_BREAKFASTS", "OTHER",
             "APARTMENT_HOTELS", "MINSHUKU", "JAPANESE_STYLE_BUSINESS_HOTELS", "RYOKAN".
