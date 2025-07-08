@@ -7,6 +7,10 @@ The Travel Agent MCP Server empowers Large Language Models (LLMs) to function as
 ## Demo Video
 
 
+https://github.com/user-attachments/assets/0773b2ae-d49b-482f-a6fe-6173e387a4bf
+
+
+
 ## Tools
 The server provides five tools to assist with travel planning, each with detailed parameters and return values for clarity:
 
