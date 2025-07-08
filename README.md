@@ -4,6 +4,9 @@
 ## Introduction
 The Travel Agent MCP Server empowers Large Language Models (LLMs) to function as a travel agent by leveraging the SerpApi and CurrencyFreaks APIs to search for travel-related information. It supports hotel searches, detailed hotel information retrieval, event and place searches, and currency rate lookups, making it ideal for planning trips and accommodations. This server integrates seamlessly with MCP-compatible clients (e.g., Claude Desktop) and requires `SERPAPI_KEY` and `CURRENCYFREAKS_API_KEY` for operation.
 
+## Demo Video
+
+
 ## Tools
 The server provides five tools to assist with travel planning, each with detailed parameters and return values for clarity:
 
@@ -113,7 +116,7 @@ The server provides five tools to assist with travel planning, each with detaile
   - If failed: `{"error": str}` (e.g., "Failed to get current date: <reason>").
 
 ## Obtaining API Keys
-To use the Travel Agent MCP Server, you need `SERPAPI_KEY` and `CURRENCYFREAKS_API_KEY`. Follow these steps to obtain them:
+To use the Travel Agent MCP Server, you need to set up an .env file with `SERPAPI_KEY` and `CURRENCYFREAKS_API_KEY`. Follow these steps to obtain them:
 1. **SERPAPI_KEY**:
    - Visit [https://serpapi.com/](https://serpapi.com/).
    - Sign up for an account and verify your email.
