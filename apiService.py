@@ -13,8 +13,8 @@ def get_hotel_list(
     gl: str = "us",
     hl: str = "en",
     sort_by: Optional[SortBy] = None,
-    min_price: Optional[float] = None,
-    max_price: Optional[float] = None,
+    min_price: Optional[int] = None,
+    max_price: Optional[int] = None,
     property_types: Optional[List[PropertyType]] = None,
     amenities: Optional[List[Amenity]] = None,
     rating: Optional[Rating] = None,
@@ -54,8 +54,8 @@ def get_hotel_list(
             - SortBy.LOWEST_PRICE: Sort by lowest price.
             - SortBy.HIGHEST_RATING: Sort by highest rating.
             - SortBy.MOST_REVIEWED: Sort by most reviewed.
-        min_price (float, optional): Minimum price per night filter. Defaults to None.
-        max_price (float, optional): Maximum price per night filter. Defaults to None.
+        min_price (int, optional): Minimum price per night filter. Defaults to None.
+        max_price (int, optional): Maximum price per night filter. Defaults to None.
         property_types (List[PropertyType], optional): List of property types to filter results.
             Defaults to None. Options:
             - PropertyType.BEACH_HOTELS: Beach hotels.
