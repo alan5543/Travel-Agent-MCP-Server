@@ -1,0 +1,24 @@
+# Smithery configuration file: https://smithery.ai/docs/build/project-config
+
+startCommand:
+  type: stdio
+  commandFunction:
+    # A JS function that produces the CLI command based on the given config to start the MCP on stdio.
+    |-
+    (config) => ({ command: 'python3', args: ['main.py'], env: { SERPAPI_KEY: config.serpapiKey, CURRENCYFREAKS_API_KEY: config.currencyFreaksApiKey } })
+  configSchema:
+    # JSON Schema defining the configuration options for the MCP.
+    type: object
+    required:
+      - serpapiKey
+      - currencyFreaksApiKey
+    properties:
+      serpapiKey:
+        type: string
+        description: Your SerpApi API key
+      currencyFreaksApiKey:
+        type: string
+        description: Your CurrencyFreaks API key
+  exampleConfig:
+    serpapiKey: test-serpapi-key
+    currencyFreaksApiKey: test-currencyfreaks-key
